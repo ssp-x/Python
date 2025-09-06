@@ -15,6 +15,9 @@ while player_wins < 2 and computer_wins < 2:
     winner = "Player"
   elif player_choice == computer_choice:
     winner = "Tie"
+  elif player_choice == "":
+    print("Invalid choice. Please choose rock, paper, or scissors.")
+    continue
   else:
     winner = "Computer"
 

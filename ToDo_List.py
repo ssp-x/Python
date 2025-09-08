@@ -25,4 +25,6 @@ while True:
     print(todo_list.pop())
   elif choice == "3":
     print("Quitting")
+  else:
+    print("Invalid input, please enter a valid option.")
     break
